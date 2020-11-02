@@ -16,6 +16,7 @@
 		04847468254AC76A00836553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04847466254AC76A00836553 /* LaunchScreen.storyboard */; };
 		04847473254AC76B00836553 /* ProjectPushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04847472254AC76B00836553 /* ProjectPushTests.swift */; };
 		0484747E254AE53D00836553 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0484747D254AE53D00836553 /* GoogleService-Info.plist */; };
+		04847480254C0C4800836553 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484747F254C0C4800836553 /* RealmManager.swift */; };
 		79981350EE13BBEE804EC207 /* Pods_ProjectPushTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCACEBAB6CB29AE53C9A65C /* Pods_ProjectPushTests.framework */; };
 		B210FBD9B2BFC6955A960674 /* Pods_ProjectPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51AF39338487AE6C6E2D25B /* Pods_ProjectPush.framework */; };
 /* End PBXBuildFile section */
@@ -44,6 +45,7 @@
 		04847472254AC76B00836553 /* ProjectPushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectPushTests.swift; sourceTree = "<group>"; };
 		04847474254AC76B00836553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0484747D254AE53D00836553 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0484747F254C0C4800836553 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		3FCACEBAB6CB29AE53C9A65C /* Pods_ProjectPushTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectPushTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DB38362546AE2272182CE0 /* Pods-ProjectPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectPush.debug.xcconfig"; path = "Target Support Files/Pods-ProjectPush/Pods-ProjectPush.debug.xcconfig"; sourceTree = "<group>"; };
 		82E753EC67642A5A8E8A48F1 /* Pods-ProjectPushTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectPushTests.release.xcconfig"; path = "Target Support Files/Pods-ProjectPushTests/Pods-ProjectPushTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				04847458254AC76900836553 /* AppDelegate.swift */,
+				0484747F254C0C4800836553 /* RealmManager.swift */,
 				0484745A254AC76900836553 /* SceneDelegate.swift */,
 				0484745C254AC76900836553 /* ViewController.swift */,
 				0484745E254AC76900836553 /* Main.storyboard */,
@@ -308,6 +311,7 @@
 			files = (
 				0484745D254AC76900836553 /* ViewController.swift in Sources */,
 				04847459254AC76900836553 /* AppDelegate.swift in Sources */,
+				04847480254C0C4800836553 /* RealmManager.swift in Sources */,
 				0484745B254AC76900836553 /* SceneDelegate.swift in Sources */,
 				04847463254AC76900836553 /* ProjectPush.xcdatamodeld in Sources */,
 			);

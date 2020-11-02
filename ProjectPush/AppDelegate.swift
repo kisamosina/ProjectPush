@@ -14,12 +14,9 @@ import Firebase
 class AppDelegate: UIResponder, UIApplicationDelegate, MessagingDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-       
-        setupFirebase()
-        
-        return true
+      print("Application did finish launching")
+      return true
     }
     
     private func setupFirebase() {
